@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  holidayPayment:
+    build: holidayPayment
+    image: holiday-payment_image
+    container_name: holidayPayment_container
+    ports:
+      - "8080:8080"
